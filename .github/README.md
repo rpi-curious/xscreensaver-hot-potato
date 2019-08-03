@@ -57,7 +57,7 @@ mkdir -vp "${HOME}/git/hub/rpi-curious"
 
 cd "${HOME}/git/hub/rpi-curious"
 
-git clone https://github.com/rpi-curious/xscreensaver-hot-potato.git
+git clone git@github.com:rpi-curious/xscreensaver-hot-potato.git
 ```
 
 
@@ -74,7 +74,8 @@ git clone https://github.com/rpi-curious/xscreensaver-hot-potato.git
 ```Bash
 sudo ln -s "${HOME}/git/hub/rpi-curious/xscreensaver-hot-potato/xscreensaver-hot-potato.sh" '/usr/local/sbin/'
 
-sudo chown ${USER}:${GROPUS} "${HOME}/bin/xscreensaver-hot-potato.sh"
+sudo chown ${USER}:${GROPUS} '/usr/local/sbin/xscreensaver-hot-potato.sh'
+chmod u+x "${HOME}/git/hub/rpi-curious/xscreensaver-hot-potato/xscreensaver-hot-potato.sh"
 
 sudo crontab -e
 ```
