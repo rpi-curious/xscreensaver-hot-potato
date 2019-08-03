@@ -57,7 +57,7 @@ mkdir -vp "${HOME}/git/hub/rpi-curious"
 
 cd "${HOME}/git/hub/rpi-curious"
 
-git clone git@github.com:rpi-curious/xscreensaver-hot-potato.git
+git clone --recurse-submodules git@github.com:rpi-curious/xscreensaver-hot-potato.git
 ```
 
 
@@ -97,6 +97,25 @@ xscreensaver-hot-potato.sh\
  --log-path /tmp/xscreensaver-hot-potato.log\
  --config-path ~/.xscreensaver\
  --offence-limit 3
+```
+
+
+**Update**
+
+
+1. Change directory to repository root
+
+2. Pull changes to source code
+
+3. Update submodule tracked source code
+
+
+```Bash
+cd "${HOME}/git/hub/rpi-curious/xscreensaver-hot-potato"
+
+git pull
+
+git submodule update --init --merge --recursive
 ```
 
 ___
