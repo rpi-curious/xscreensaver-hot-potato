@@ -74,7 +74,7 @@ git clone --recurse-submodules git@github.com:rpi-curious/xscreensaver-hot-potat
 ```Bash
 sudo ln -s "${HOME}/git/hub/rpi-curious/xscreensaver-hot-potato/xscreensaver-hot-potato.sh" '/usr/local/sbin/'
 
-sudo chown ${USER}:${GROPUS} '/usr/local/sbin/xscreensaver-hot-potato.sh'
+sudo chown ${USER}:${GROUPS} '/usr/local/sbin/xscreensaver-hot-potato.sh'
 chmod u+x "${HOME}/git/hub/rpi-curious/xscreensaver-hot-potato/xscreensaver-hot-potato.sh"
 
 sudo crontab -e
@@ -86,6 +86,14 @@ sudo crontab -e
 
 ```crontab
 */2 * * * * su pi -c "/usr/local/sbin/xscreensaver-hot-potato.sh --max-temp-c 75 --log-path /tmp/xscreensaver-hot-potato.log --config-path /home/pi/.xscreensaver"
+```
+
+
+**Example:** logged hacks
+
+
+```
+# 2018-09-21 Friday 23:08:02 - Screensaver 38 penrose - Temperature: 59
 ```
 
 
