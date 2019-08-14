@@ -132,7 +132,7 @@ xscreensaver__comment_toasty_hacks(){
 
         _line_number="$(sed -n "/[[:space:]]${_name}[[:space:]]/=" "${_config_path}")"
         ## Parse for end of screensaver hack block
-        _untill_line="$(( ${_line_number} + $(awk -v _name="${_name}" '$0 ~ _name,/\\n/' "${HOME}/.xscreensaver" | tail -n+2 | wc -l) ))"
+        _untill_line="$(( ${_line_number} + $(awk -v _name="${_name}" '$0 ~ _name,/\\n/' "${_config_path}" | tail -n+2 | wc -l) ))"
         if [ "${_untill_line}" -gt "${_line_number}" ]; then
             for (( i=${_line_number}; i<=${_untill_line}; i++ )); do
                 xscreensaver__comment_line_number "${i}"
