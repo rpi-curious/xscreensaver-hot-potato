@@ -109,7 +109,7 @@ xscreensaver__comment_line_number(){
         '-'*) echo "Line number ${_line_number} already commented" && return 1;;
     esac
 
-    printf 'Commenting out %s line number %i within %s' "${_name}" "${_line_number}" "${_config_path}"
+    printf 'Commenting out %s line number %i within %s\n' "${_name}" "${_line_number}" "${_config_path}"
     sed -i "${_line_number} {s@^@-@}" "${_config_path}"
 }
 
@@ -124,9 +124,13 @@ xscreensaver__comment_toasty_hacks(){
     ## Parse for screensaver hack names that where logged one to many times
     _repeat_offenders="$(awk -v _limit="${_offence_limit}" '{a[$0]++}END{for(i in a){if(a[i] >= _limit){print i}}}' <<<"${_logged_names}")"
     for _name in ${_repeat_offenders}; do
-        _line="$(grep -- " ${_name} " "${_config_path}")"
-        _line_number="$(sed -n "/ ${_name} /=" "${_config_path}")"
+        _line="$(grep -E -- "[[:space:]]${_name}[[:space:]]" "${_config_path}")"
+        if [ -z "${_line}" ] || [[ "${_line}" =~ ^'-'* ]]; then
+            printf '%s skipping -> %s\n' "${FUNCNAME}" "${_name}"
+            continue
+        fi
 
+        _line_number="$(sed -n "/[[:space:]]${_name}[[:space:]]/=" "${_config_path}")"
         ## Parse for end of screensaver hack block
         _untill_line="$(( ${_line_number} + $(awk -v _name="${_name}" '$0 ~ _name,/\\n/' "${HOME}/.xscreensaver" | tail -n+2 | wc -l) ))"
         if [ "${_untill_line}" -gt "${_line_number}" ]; then
