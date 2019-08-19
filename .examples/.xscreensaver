@@ -1,0 +1,282 @@
+# XScreenSaver Preferences File
+# Written by xscreensaver-demo 5.36 for pi on Mon Aug 12 21:52:03 2019.
+# https://www.jwz.org/xscreensaver/
+
+timeout:	0:01:00
+cycle:		0:10:00
+lock:		False
+lockTimeout:	0:00:00
+passwdTimeout:	0:00:30
+visualID:	default
+installColormap:    True
+verbose:	False
+timestamp:	True
+splash:		True
+splashDuration:	0:00:05
+demoCommand:	xscreensaver-demo
+prefsCommand:	xscreensaver-demo -prefs
+nice:		10
+memoryLimit:	0
+fade:		True
+unfade:		False
+fadeSeconds:	0:00:03
+fadeTicks:	20
+captureStderr:	True
+ignoreUninstalledPrograms:False
+font:		*-medium-r-*-140-*-m-*
+dpmsEnabled:	False
+dpmsQuickOff:	False
+dpmsStandby:	2:00:00
+dpmsSuspend:	2:00:00
+dpmsOff:	4:00:00
+grabDesktopImages:  False
+grabVideoFrames:    False
+chooseRandomImages: False
+imageDirectory:	
+
+mode:		random
+selected:	137
+
+textMode:	date
+textLiteral:	XScreenSaver
+textFile:	
+textProgram:	fortune
+textURL:	http://planet.debian.org/rss20.xml
+
+programs:								      \
+-				maze -root				    \n\
+- GL: 				superquadrics -root			    \n\
+-				attraction -root			    \n\
+				blitspin -root -fps			    \n\
+				greynetic -root -fps			    \n\
+-				helix -root				    \n\
+-				hopalong -root				    \n\
+-				imsmap -root				    \n\
+				noseguy -root -fps			    \n\
+				pyro -root -fps				    \n\
+				qix -root -fps				    \n\
+-				rocks -root				    \n\
+				rorschach -root -fps			    \n\
+				decayscreen -root -fps			    \n\
+-				flame -root				    \n\
+				halo -root -fps				    \n\
+				slidescreen -root -fps			    \n\
+				pedal -root -fps			    \n\
+-				bouboule -root				    \n\
+				braid -root -fps			    \n\
+-				coral -root				    \n\
+-				deco -root				    \n\
+-				drift -root				    \n\
+				fadeplot -root -fps			    \n\
+-				galaxy -root				    \n\
+-				goop -root				    \n\
+-				grav -root				    \n\
+-				ifs -root				    \n\
+				unicode -root -fps			    \n\
+- GL: 				jigsaw -root				    \n\
+-				julia -root				    \n\
+				kaleidescope -root -fps			    \n\
+- GL: 				moebius -root				    \n\
+				moire -root -fps			    \n\
+- GL: 				morph3d -root				    \n\
+-				mountain -root				    \n\
+				munch -root -fps			    \n\
+-				penrose -root				    \n\
+- GL: 				pipes -root				    \n\
+				rd-bomb -root -fps			    \n\
+- GL: 				rubik -root				    \n\
+				sierpinski -root -fps			    \n\
+				slip -root -fps				    \n\
+- GL: 				sproingies -root			    \n\
+				starfish -root -fps			    \n\
+				strange -root -fps			    \n\
+				swirl -root -fps			    \n\
+				triangle -root -fps			    \n\
+				xjack -root -fps			    \n\
+-				xlyap -root				    \n\
+- GL: 				atlantis -root				    \n\
+				bsod -root -fps				    \n\
+- GL: 				bubble3d -root				    \n\
+- GL: 				cage -root				    \n\
+				crystal -root -fps			    \n\
+				cynosure -root -fps			    \n\
+-				discrete -root				    \n\
+				distort -root -fps			    \n\
+-				epicycle -root				    \n\
+				flow -root -fps				    \n\
+- GL: 				glplanet -root				    \n\
+-				interference -root			    \n\
+-				kumppa -root				    \n\
+- GL: 				lament -root				    \n\
+				moire2 -root -fps			    \n\
+- GL: 				sonar -root				    \n\
+- GL: 				stairs -root				    \n\
+				truchet -root -fps			    \n\
+				vidwhacker -root -fps			    \n\
+-				blaster -root				    \n\
+-				bumps -root				    \n\
+				ccurve -root -fps			    \n\
+				compass -root -fps			    \n\
+				deluxe -root -fps			    \n\
+				demon -root -fps			    \n\
+- GL: 				extrusion -root				    \n\
+				loop -root -fps				    \n\
+-				penetrate -root				    \n\
+-				petri -root				    \n\
+-				phosphor -root				    \n\
+- GL: 				pulsar -root				    \n\
+				ripples -root -fps			    \n\
+-				shadebobs -root				    \n\
+- GL: 				sierpinski3d -root			    \n\
+				spotlight -root -fps			    \n\
+-				squiral -root				    \n\
+-				wander -root				    \n\
+				webcollage -root -fps			    \n\
+				xflame -root -fps			    \n\
+-				xmatrix -root				    \n\
+- GL: 				gflux -root				    \n\
+				nerverot -root -fps			    \n\
+-				xrayswarm -root				    \n\
+				xspirograph -root -fps			    \n\
+- GL: 				circuit -root				    \n\
+- GL: 				dangerball -root			    \n\
+- GL: 				engine -root				    \n\
+- GL: 				flipscreen3d -root			    \n\
+- GL: 				gltext -root				    \n\
+- GL: 				menger -root				    \n\
+- GL: 				molecule -root				    \n\
+				rotzoomer -root -fps			    \n\
+-				speedmine -root				    \n\
+- GL: 				starwars -root				    \n\
+- GL: 				stonerview -root			    \n\
+-				vermiculate -root			    \n\
+-				whirlwindwarp -root			    \n\
+				zoom -root -fps				    \n\
+-				anemone -root				    \n\
+-				apollonian -root			    \n\
+- GL: 				boxed -root				    \n\
+- GL: 				cubenetic -root				    \n\
+- GL: 				endgame -root				    \n\
+-				euler2d -root				    \n\
+				fluidballs -root -fps			    \n\
+- GL: 				flurry -root				    \n\
+- GL: 				glblur -root				    \n\
+- GL: 				glsnake -root				    \n\
+-				halftone -root				    \n\
+- GL: 				juggler3d -root				    \n\
+- GL: 				lavalite -root				    \n\
+				polyominoes -root -fps			    \n\
+- GL: 				queens -root				    \n\
+- GL: 				sballs -root				    \n\
+- GL: 				spheremonics -root			    \n\
+				thornbird -root -fps			    \n\
+				twang -root -fps			    \n\
+- GL: 				antspotlight -root			    \n\
+-				apple2 -root -fps			    \n\
+- GL: 				atunnel -root				    \n\
+-				barcode -root				    \n\
+- GL: 				blinkbox -root				    \n\
+- GL: 				blocktube -root				    \n\
+- GL: 				bouncingcow -root			    \n\
+-				cloudlife -root				    \n\
+- GL: 				cubestorm -root				    \n\
+-				eruption -root				    \n\
+- GL: 				flipflop -root				    \n\
+- GL: 				flyingtoasters -root			    \n\
+				fontglide -root -fps			    \n\
+- GL: 				gleidescope -root			    \n\
+- GL: 				glknots -root				    \n\
+- GL: 				glmatrix -root				    \n\
+- GL: 				glslideshow -root			    \n\
+- GL: 				hypertorus -root			    \n\
+- GL: 				jigglypuff -root			    \n\
+-				metaballs -root				    \n\
+- GL: 				mirrorblob -root			    \n\
+-				piecewise -root				    \n\
+- GL: 				polytopes -root				    \n\
+-				pong -root				    \n\
+-				popsquares -root -fps			    \n\
+- GL: 				surfaces -root				    \n\
+				xanalogtv -root -fps			    \n\
+-				abstractile -root			    \n\
+-				anemotaxis -root			    \n\
+- GL: 				antinspect -root			    \n\
+-				fireworkx -root				    \n\
+-				fuzzyflakes -root			    \n\
+-				interaggregate -root -fps		    \n\
+-				intermomentary -root			    \n\
+-				memscroller -root			    \n\
+- GL: 				noof -root				    \n\
+-				pacman -root				    \n\
+- GL: 				pinion -root				    \n\
+- GL: 				polyhedra -root				    \n\
+- GL: 				providence -root			    \n\
+				substrate -root -fps			    \n\
+-				wormhole -root				    \n\
+- GL: 				antmaze -root				    \n\
+- GL: 				boing -root				    \n\
+-				boxfit -root				    \n\
+- GL: 				carousel -root				    \n\
+-				celtic -root				    \n\
+- GL: 				crackberg -root				    \n\
+- GL: 				cube21 -root				    \n\
+-				fiberlamp -root				    \n\
+- GL: 				fliptext -root				    \n\
+- GL: 				glhanoi -root				    \n\
+- GL: 				tangram -root				    \n\
+- GL: 				timetunnel -root			    \n\
+- GL: 				glschool -root				    \n\
+- GL: 				topblock -root				    \n\
+- GL: 				cubicgrid -root				    \n\
+-				cwaves -root				    \n\
+- GL: 				gears -root				    \n\
+- GL: 				glcells -root				    \n\
+- GL: 				lockward -root				    \n\
+				m6502 -root -fps			    \n\
+- GL: 				moebiusgears -root			    \n\
+- GL: 				voronoi -root				    \n\
+- GL: 				hypnowheel -root			    \n\
+- GL: 				klein -root				    \n\
+				lcdscrub -root -fps			    \n\
+- GL: 				photopile -root				    \n\
+- GL: 				skytentacles -root			    \n\
+- GL: 				rubikblocks -root			    \n\
+- GL: 				companioncube -root			    \n\
+- GL: 				hilbert -root				    \n\
+- GL: 				tronbit -root				    \n\
+- GL: 				geodesic -root				    \n\
+-				hexadrop -root				    \n\
+- GL: 				kaleidocycle -root			    \n\
+- GL: 				quasicrystal -root			    \n\
+- GL: 				unknownpleasures -root			    \n\
+-				binaryring -root -growth-delay 6557	      \
+				  -ring-radius 80 -particles-number 3217    \n\
+- GL: 				cityflow -root				    \n\
+- GL: 				geodesicgears -root			    \n\
+- GL: 				projectiveplane -root			    \n\
+- GL: 				romanboy -root				    \n\
+				tessellimage -root -fps			    \n\
+- GL: 				winduprobot -root			    \n\
+- GL: 				splitflap -root				    \n\
+- GL: 				cubestack -root				    \n\
+- GL: 				cubetwist -root				    \n\
+- GL: 				discoball -root				    \n\
+- GL: 				dymaxionmap -root			    \n\
+- GL: 				energystream -root			    \n\
+- GL: 				hexstrut -root				    \n\
+- GL: 				hydrostat -root				    \n\
+- GL: 				raverhoop -root				    \n\
+- GL: 				splodesic -root				    \n\
+- GL: 				unicrud -root				    \n\
+
+
+pointerPollTime:    0:00:05
+pointerHysteresis:  10
+windowCreationTimeout:0:00:30
+initialDelay:	0:00:00
+GetViewPortIsFullOfLies:False
+procInterrupts:	True
+xinputExtensionDev: False
+overlayStderr:	True
+authWarningSlack:   20
+
