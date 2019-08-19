@@ -159,7 +159,7 @@ programs:								      \
 - GL: 				endgame -root				    \n\
 -				euler2d -root				    \n\
 				fluidballs -root -fps			    \n\
-- GL: 				flurry -root -fps			    \n\
+- GL: 				flurry -root				    \n\
 - GL: 				glblur -root				    \n\
 - GL: 				glsnake -root				    \n\
 -				halftone -root				    \n\
