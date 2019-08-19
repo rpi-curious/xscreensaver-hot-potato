@@ -64,7 +64,7 @@ programs:								      \
 				pedal -root -fps			    \n\
 -				bouboule -root				    \n\
 				braid -root -fps			    \n\
--				coral -root				    \n\
+-				coral -root -fps			    \n\
 -				deco -root				    \n\
 -				drift -root				    \n\
 				fadeplot -root -fps			    \n\
@@ -159,7 +159,7 @@ programs:								      \
 - GL: 				endgame -root				    \n\
 -				euler2d -root				    \n\
 				fluidballs -root -fps			    \n\
-- GL: 				flurry -root				    \n\
+- GL: 				flurry -root -fps			    \n\
 - GL: 				glblur -root				    \n\
 - GL: 				glsnake -root				    \n\
 -				halftone -root				    \n\
@@ -198,7 +198,7 @@ programs:								      \
 -				popsquares -root -fps			    \n\
 - GL: 				surfaces -root				    \n\
 				xanalogtv -root -fps			    \n\
--				abstractile -root			    \n\
+-				abstractile -root -fps			    \n\
 -				anemotaxis -root			    \n\
 - GL: 				antinspect -root			    \n\
 -				fireworkx -root				    \n\
@@ -255,7 +255,7 @@ programs:								      \
 - GL: 				geodesicgears -root			    \n\
 - GL: 				projectiveplane -root			    \n\
 - GL: 				romanboy -root				    \n\
-				tessellimage -root -fps			    \n\
+-				tessellimage -root -fps			    \n\
 - GL: 				winduprobot -root			    \n\
 - GL: 				splitflap -root				    \n\
 - GL: 				cubestack -root				    \n\
