@@ -93,8 +93,14 @@ sudo crontab -e
 
 
 ```
-# 2018-09-21 Friday 23:08:02 - Screensaver 38 penrose - Temperature: 59
+# 2019-08-05 Monday 15:22:01 - Screensaver 206 ringradius - Temperature: 76
+# 2019-08-05 Monday 23:22:02 - Screensaver 147 mirrorblob - Temperature: 76
+# 2019-08-05 Monday 23:24:01 - Screensaver 70 bumps - Temperature: 77
+# 2019-08-05 Monday 23:26:01 - Screensaver 159 interaggregate - Temperature: 76
+# 2019-08-06 Tuesday 00:10:01 - Screensaver 151 popsquares - Temperature: 76
 ```
+
+> Note a more substantial example may be found under [`.examples/xscreensaver_hot_potato.log`][xscreensaver_hot_potato__examples__log]
 
 
 **Example:** disable `xscreensaver` hacks that overheat device
@@ -273,3 +279,6 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 [xscreensaver_hot_potato__master__source_code]:
   https://github.com/rpi-curious/xscreensaver-hot-potato/blob/master/xscreensaver-hot-potato.sh
   "&#x2328; Project source code!"
+
+[xscreensaver_hot_potato__examples__log]:
+  https://github.com/rpi-curious/xscreensaver-hot-potato/blob/master/.examples/xscreensaver-hot-potato.log
